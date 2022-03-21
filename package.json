@@ -1,0 +1,25 @@
+{
+  "name": "datasets",
+  "dependencies": {
+    "bignumber.js": "^9.0.2",
+    "web3": "^1.7.1"
+  },
+  "description": "pear datasets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "node index.js",
+    "build:token": "node src/token.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peardao/datasets.git"
+  },
+  "author": "Gary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peardao/datasets/issues"
+  },
+  "homepage": "https://github.com/peardao/datasets#readme"
+}
